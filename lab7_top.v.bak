@@ -14,7 +14,7 @@ wire [8:0] mem_addr;//mem_addr from cpu, 8th bit has speical usage, read_address
 wire write; //wire going into write port of memory block
 
 
-cpu CPU (CLOCK_50,~KEY[1],read_data,read_data,write_data,N,V,Z,mem_addr,mem_cmd,LEDR[8]);//cpu module, outputs datapath_out,N,V,Z,mem_addr,mem_cmd
+cpu CPU (CLOCK_50,~KEY[1],read_data,read_data,write_data,N,V,Z,mem_addr,mem_cmd);//cpu module, outputs datapath_out,N,V,Z,mem_addr,mem_cmd
 RAM #(.data_width(16), .addr_width(8),.filename("lab8fig2.txt")) MEM (CLOCK_50,mem_addr[7:0],mem_addr[7:0],write,write_data,dout);//Memory module;
 mem_manage Manager (mem_cmd,mem_addr[8],dout,read_data,write); //equality comparator in conjuction with a tristate buffer
 mapping_io IO (CLOCK_50,9'h140,9'h100,SW[7:0],mem_cmd,mem_addr,read_data,write_data,LEDR[7:0]);//io for  top module

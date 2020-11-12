@@ -76,16 +76,23 @@ module state_machine(reset,clk,opcode,op,nsel,data_path_control,mem_control,mem_
            {4'bxxxx,6'bxxxxx1}:next = {9'b000001011,`RST,14'b00000000000000};         //when reset is enabled;reset_pc =1, loac_pc = 1; go to rst;memem_cmd = MNONE;
            
            {`RST,6'bxxxxx0}:next = {9'b000010100,`IF1,14'b00000000000000};         //reset_pc =0, loac_pc = 0;addr_sel = 1; memem_cmd = MREAD;
+
+//{`IF1,6'b110xx0}:next = {9'b001010100,`IF2,14'b00000000000000};         // reset_pc still 0; load_pc  =0;memem_cmd = MREAD; addr_sel =1;load_ir = 1;
+          // {`IF1,6'b001000}:next = {9'b101010100,`IF2,14'b00000000000000};         // reset_pc still 0; load_pc  =0;memem_cmd = MREAD; addr_sel =1;load_ir = 1;
            {`IF1,6'bxxxxx0}:next = {9'b001010100,`IF2,14'b00000000000000};         // reset_pc still 0; load_pc  =0;memem_cmd = MREAD; addr_sel =1;load_ir = 1;
-           {`IF2,6'bxxxxx0}:next = {9'b000001010,`PC,14'b00000000000000};         // reset_pc still 0; load_pc  =1;memem_cmd = MNONE;addr_sel =0;load_ir = 0;
+         
+           
+           //{`IF2,6'b110xx0}:next = {9'b000001010,`PC,14'b00000000000000};         // reset_pc still 0; load_pc  =1;memem_cmd = MNONE;addr_sel =0;load_ir = 0;
+           //{`IF2,6'b001000}:next = {9'b100001010,`PC,14'b00000000000000};         // reset_pc still 0; load_pc  =1;memem_cmd = MNONE;addr_sel =0;load_ir = 0;
+ {`IF2,6'bxxxxx0}:next = {9'b000001010,`PC,14'b00000000000000};         // reset_pc still 0; load_pc  =1;memem_cmd = MNONE;addr_sel =0;load_ir = 0;
+
+
            {`PC,6'bxxxxx0}:next = {9'b000001000,`Sa,14'b00000000000000};         // reset_pc still 0; load_pc  =0;memem_cmd = MNONE;addr_sel =0;load_ir = 0;
         
    
            {`Sa,6'b111xx0}:next = {9'b000001000,`Sa,14'b00000000000000};          //HALT
 
-
            {`Sa,6'b001000}:next = {9'b000010100,`IF1,14'b00000000000000};          //Branch instructions
-
 
            {`Sa,6'b100000}:next = {9'b000001000,`Sb,14'b00101000100110};          //STR Rd Rn #5,im8,nsel rn,loada =1,loadb =0,asel =0,bsel =1,loadc =1;  Get Ain(Rn)
            {`Sb,6'b100000}:next = {9'b000001000,`Sc,14'b00101000000110};          //STR Rd Rn #5,im8,nsel rn,loada = 0,loadb =0,asel =0,bsel =1,loadc =1; Get Bin(sximm5)
