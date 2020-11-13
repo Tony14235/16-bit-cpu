@@ -7,7 +7,18 @@ Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  
 Top level modules:
 	datapath
 
-} {} {}} C:/Users/tonys/Downloads/lab8/lab7_top.v {1 {vlog -work work -stats=none C:/Users/tonys/Downloads/lab8/lab7_top.v
+} {} {}} C:/Users/tonys/Downloads/lab8/cpu.v {1 {vlog -work work -stats=none C:/Users/tonys/Downloads/lab8/cpu.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module cpu
+-- Compiling module state_machine
+-- Compiling module decoder
+-- Compiling module mux2_9
+-- Compiling module addr_adder
+
+Top level modules:
+	cpu
+
+} {} {}} C:/Users/tonys/Downloads/lab8/lab8_top.v {1 {vlog -work work -stats=none C:/Users/tonys/Downloads/lab8/lab8_top.v
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
 -- Compiling module lab8_top
 -- Compiling module RAM

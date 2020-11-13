@@ -21,7 +21,7 @@ module datapath(mdata,sximm8,pc,datapath_out,vsel,asel,bsel,loada,loadb,loadc,lo
       wire [2:0]Z;
 
       //mux4_16 com9 (mdata,sximm8,{8'b0,pc},datapath_out,vsel,data_in);         //component 9 chooses between old value and new value
-      mux4_16 com9 (mdata,sximm8,pc,datapath_out,vsel,data_in);         //component 9 chooses between old value and new value
+      mux4_16 com9 (mdata,sximm8,{7'b0000000,pc[8:0]},datapath_out,vsel,data_in);         //component 9 chooses between old value and new value
       regfile REGFILE (data_in,writenum,write,readnum,clk,data_out);// Registerfile
       register A (loada, clk, data_out, aout);                      //register A
       register B (loadb, clk, data_out, in);                        //Register B

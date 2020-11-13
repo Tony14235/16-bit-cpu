@@ -1,0 +1,2 @@
+During this Lab, partner 1 and partner2 worked on both stages together. This includes froming outlining the design
+to adding the new RISC instructions and to debugging the codes. Both partners are happy with the other's contribution.

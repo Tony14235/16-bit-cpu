@@ -23,7 +23,7 @@ module lab8_stage2_tb;
       // the next instruction (e.g., IF1 state from Lab 7 or equivalent in
       // your design).  DUT.CPU.FSM is not required for by the autograder
       // for Lab 8. 
-      //@(posedge (DUT.CPU.FSM.present_state == `YOUR_IF1_STATE) or posedge break);  
+      @(posedge (DUT.CPU.SM.state == 4'b0001) or posedge break);  
 
       @(negedge CLOCK_50); // show advance to negative edge of clock
       $display("PC = %h", DUT.CPU.PC); 

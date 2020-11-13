@@ -9,21 +9,21 @@ z2
 cModel Technology
 dC:/Users/tonys/Downloads/lab7
 vaddr_adder
-Z0 !s110 1605185530
+Z0 !s110 1605240721
 !i10b 1
-!s100 ]2:A1]k@<n`[X=hZk:m?h1
-ICYU;bf>Y2064X^`:4>zBn1
+!s100 JPkmZD8Fg6mKK@Lc[Y]nV3
+ISBm`Z:d?FTdX7]YW=k8XY1
 Z1 VDg1SIo80bB@j0V0VzS_@n1
 Z2 dC:/Users/tonys/Downloads/lab8
-Z3 w1605185528
+Z3 w1605240553
 Z4 8C:/Users/tonys/Downloads/lab8/cpu.v
 Z5 FC:/Users/tonys/Downloads/lab8/cpu.v
-L0 225
+L0 258
 Z6 OV;L;10.5b;63
 r1
 !s85 0
 31
-Z7 !s108 1605185530.000000
+Z7 !s108 1605240721.000000
 Z8 !s107 C:/Users/tonys/Downloads/lab8/cpu.v|
 Z9 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/tonys/Downloads/lab8/cpu.v|
 !i113 1
@@ -36,7 +36,7 @@ R0
 If;XDf[>`Uf^k9CHcEKoKc2
 R1
 R2
-w1603877429
+w1603873830
 8C:/Users/tonys/Downloads/lab8/alu.v
 FC:/Users/tonys/Downloads/lab8/alu.v
 L0 1
@@ -54,8 +54,8 @@ n@a@l@u
 vcpu
 R0
 !i10b 1
-!s100 hUQY^P9I1>KR]FaafH]PX2
-IOOL:;E^j1e@]T[YTbbSzM2
+!s100 j`]IeHCV=Q?A4W]T?M?l=1
+I_FWQ5gV=]<IlNH@0@RoWH0
 R1
 R2
 R3
@@ -73,37 +73,37 @@ R9
 R10
 R11
 vdatapath
-R0
+Z12 !s110 1605240722
 !i10b 1
-!s100 7cKR5DHL_D=5<;dKQUgA^2
-IiNb1PL3BEh]m1Db;_U4=C0
+!s100 J?nlZ?RZaZ8mZD:0DX??P2
+IU?n]`^@V0Sz6=aDeY2GL83
 R1
 R2
-Z12 w1604476689
-Z13 8C:/Users/tonys/Downloads/lab8/datapath.v
-Z14 FC:/Users/tonys/Downloads/lab8/datapath.v
+Z13 w1605189318
+Z14 8C:/Users/tonys/Downloads/lab8/datapath.v
+Z15 FC:/Users/tonys/Downloads/lab8/datapath.v
 L0 1
 R6
 r1
 !s85 0
 31
 R7
-Z15 !s107 C:/Users/tonys/Downloads/lab8/datapath.v|
-Z16 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/tonys/Downloads/lab8/datapath.v|
+Z16 !s107 C:/Users/tonys/Downloads/lab8/datapath.v|
+Z17 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/tonys/Downloads/lab8/datapath.v|
 !i113 1
 R10
 R11
 vdecoder
 R0
 !i10b 1
-!s100 iYLmdR7Mz^2Z41<YXJo_53
-I7O`_9ZelG4R_FlX[J[Z=n0
+!s100 I9_AI<1<SIW`PTf=Dn3hm1
+IUOe5lF]IFE`ESkRkmTW5X3
 R1
 R2
 R3
 R4
 R5
-L0 150
+L0 173
 R6
 r1
 !s85 0
@@ -115,44 +115,44 @@ R9
 R10
 R11
 vdecoder38
-R0
+R12
 !i10b 1
 !s100 eU@zn0n10HKda?IP^HLXM1
 IQW=LD=63L6Cg[e;iMN:dm0
 R1
 R2
-Z17 w1603737323
-Z18 8C:/Users/tonys/Downloads/lab8/regfile.v
-Z19 FC:/Users/tonys/Downloads/lab8/regfile.v
+Z18 w1603733724
+Z19 8C:/Users/tonys/Downloads/lab8/regfile.v
+Z20 FC:/Users/tonys/Downloads/lab8/regfile.v
 L0 36
 R6
 r1
 !s85 0
 31
-R7
-Z20 !s107 C:/Users/tonys/Downloads/lab8/regfile.v|
-Z21 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/tonys/Downloads/lab8/regfile.v|
+Z21 !s108 1605240722.000000
+Z22 !s107 C:/Users/tonys/Downloads/lab8/regfile.v|
+Z23 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/tonys/Downloads/lab8/regfile.v|
 !i113 1
 R10
 R11
 vEqComp
-R0
+R12
 !i10b 1
 !s100 SOlEmHQJQaHH=KUhbVQ3a3
-I3;Hz=9^mm=?NL46jE@idU2
+I3z<5<5IkJ=GUmNomi3[`^3
 R1
 R2
-Z22 w1605174327
-Z23 8C:/Users/tonys/Downloads/lab8/lab7_top.v
-Z24 FC:/Users/tonys/Downloads/lab8/lab7_top.v
+Z24 w1605240720
+Z25 8C:/Users/tonys/Downloads/lab8/lab8_top.v
+Z26 FC:/Users/tonys/Downloads/lab8/lab8_top.v
 L0 53
 R6
 r1
 !s85 0
 31
-R7
-Z25 !s107 C:/Users/tonys/Downloads/lab8/lab7_top.v|
-Z26 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/tonys/Downloads/lab8/lab7_top.v|
+R21
+Z27 !s107 C:/Users/tonys/Downloads/lab8/lab8_top.v|
+Z28 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/tonys/Downloads/lab8/lab8_top.v|
 !i113 1
 R10
 R11
@@ -165,27 +165,27 @@ I7B@4FW2kMFhWNAXoi`Qe20
 R1
 R2
 w1605173580
-R23
-R24
+8C:/Users/tonys/Downloads/lab8/lab7_top.v
+FC:/Users/tonys/Downloads/lab8/lab7_top.v
 L0 1
 R6
 r1
 !s85 0
 31
 !s108 1605173780.000000
-R25
-R26
+!s107 C:/Users/tonys/Downloads/lab8/lab7_top.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/tonys/Downloads/lab8/lab7_top.v|
 !i113 1
 R10
 R11
 vlab8_check_tb
-Z27 !s110 1605185529
+R0
 !i10b 1
 !s100 f7SHIXQSI1il1L?::d=1L3
 I>kfNCe]oeoZIXEIe?m:0A2
 R1
 R2
-w1605161669
+w1605161670
 8C:/Users/tonys/Downloads/lab8/lab8_autograder_check.v
 FC:/Users/tonys/Downloads/lab8/lab8_autograder_check.v
 L0 1
@@ -193,20 +193,20 @@ R6
 r1
 !s85 0
 31
-Z28 !s108 1605185529.000000
+R7
 !s107 C:/Users/tonys/Downloads/lab8/lab8_autograder_check.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/tonys/Downloads/lab8/lab8_autograder_check.v|
 !i113 1
 R10
 R11
 vlab8_stage2_tb
-R27
+R0
 !i10b 1
-!s100 5>E<hfe6afijA]`TJFKIB3
-INWH:Nz>PBoAdU^o56=a?Q1
+!s100 VKC:VIQZ:5@`Jb4L366]U3
+I1gVLh6lKUig_]D^mdU;IH2
 R1
 R2
-w1605173407
+w1605239245
 8C:/Users/tonys/Downloads/lab8/lab8_stage2_tb.v
 FC:/Users/tonys/Downloads/lab8/lab8_stage2_tb.v
 L0 1
@@ -214,107 +214,107 @@ R6
 r1
 !s85 0
 31
-R28
+R7
 !s107 C:/Users/tonys/Downloads/lab8/lab8_stage2_tb.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/tonys/Downloads/lab8/lab8_stage2_tb.v|
 !i113 1
 R10
 R11
 vlab8_top
-R0
+R12
 !i10b 1
 !s100 5Z^h^UoH24``m7KQOSJ_91
-I[1CJlVIaFAnT<T]`>zTBC0
+I?]`bkaG98ca;bcEoAX8oW1
 R1
 R2
-R22
-R23
 R24
+R25
+R26
 L0 1
 R6
 r1
 !s85 0
 31
-R7
-R25
-R26
+R21
+R27
+R28
 !i113 1
 R10
 R11
 vmapping_io
-R0
+R12
 !i10b 1
 !s100 4hT1W<nAo:P?a=zm92Uz@2
-ILfVl5JM[15BkKB4QSUS_53
+I5LEnb0]Jgbz6dbR`N>`Hi0
 R1
 R2
-R22
-R23
 R24
+R25
+R26
 L0 89
 R6
 r1
 !s85 0
 31
-R7
-R25
-R26
+R21
+R27
+R28
 !i113 1
 R10
 R11
 vmem_manage
-R0
+R12
 !i10b 1
 !s100 J8]aYL`B8>`z?]K:e=ElE1
-Ik6U_KEKmJ27;kz3igebO52
+IG1FjFFLzUGT=K>LdCLQ4m3
 R1
 R2
-R22
-R23
 R24
+R25
+R26
 L0 62
 R6
 r1
 !s85 0
 31
-R7
-R25
-R26
+R21
+R27
+R28
 !i113 1
 R10
 R11
 vmux2_16
-R0
+R12
 !i10b 1
 !s100 8GmM_YPOb4TI3Jza`[3Xz2
 IU_1U9eSzA`K6z]1iL1IY82
 R1
 R2
-R12
 R13
 R14
+R15
 L0 37
 R6
 r1
 !s85 0
 31
 R7
-R15
 R16
+R17
 !i113 1
 R10
 R11
 vmux2_9
 R0
 !i10b 1
-!s100 8GOWgVX]O9N7lY]gMSQYb0
-I^WP9@n_KloBdf_U2BandZ0
+!s100 T87KobbE1H1a2fARFOSDL0
+I@M^bLkioNoVRD;ATDKd^21
 R1
 R2
 R3
 R4
 R5
-L0 210
+L0 243
 R6
 r1
 !s85 0
@@ -326,119 +326,119 @@ R9
 R10
 R11
 vmux4_16
-R0
+R12
 !i10b 1
 !s100 6>3Y@@AlZNK>79I553T<V2
 I:>OAInP@Ab?CW5R^POl>U1
 R1
 R2
-R12
 R13
 R14
+R15
 L0 52
 R6
 r1
 !s85 0
 31
 R7
-R15
 R16
+R17
 !i113 1
 R10
 R11
 vmux8_16
-R0
+R12
 !i10b 1
 !s100 ?ozUEgE0T9k9IFA5^H1ai0
 IhfRd<D``2hN=3;h^k;m<a2
 R1
 R2
-R17
 R18
 R19
+R20
 L0 65
 R6
 r1
 !s85 0
 31
-R7
-R20
 R21
+R22
+R23
 !i113 1
 R10
 R11
 vRAM
-R0
+R12
 !i10b 1
 !s100 _?<<>`@Xn>l8eLU`Sk@DB2
-ITJ7gU5z7^R`GDaK`X`POI1
+I:keLgKO:>;VN:WTAnnB=60
 R1
 R2
-R22
-R23
 R24
+R25
+R26
 L0 28
 R6
 r1
 !s85 0
 31
-R7
-R25
-R26
+R21
+R27
+R28
 !i113 1
 R10
 R11
 n@r@a@m
 vregfile
-R0
+R12
 !i10b 1
 !s100 UCPQmh2YBn94^]Cc>W48F2
 Iin1aRgY7dCGOjj5@Cd7a<2
 R1
 R2
-R17
 R18
 R19
+R20
 L0 1
 R6
 r1
 !s85 0
 31
-R7
-R20
 R21
+R22
+R23
 !i113 1
 R10
 R11
 vregister
-R0
+R12
 !i10b 1
 !s100 oMXkN>?iYA2San_Lf:BKo0
 I2AX^if]>g5d[RcENGOnf_0
 R1
 R2
-R17
 R18
 R19
+R20
 L0 50
 R6
 r1
 !s85 0
 31
-R7
-R20
 R21
+R22
+R23
 !i113 1
 R10
 R11
 vshifter
-R27
+R0
 !i10b 1
 !s100 [iWd?3:Mj=9l:]9miRFN73
 I5d_U5:cc;?5:U2AIneVdX3
 R1
 R2
-w1603154493
+w1603150894
 8C:/Users/tonys/Downloads/lab8/shifter.v
 FC:/Users/tonys/Downloads/lab8/shifter.v
 L0 1
@@ -446,7 +446,7 @@ R6
 r1
 !s85 0
 31
-R28
+R7
 !s107 C:/Users/tonys/Downloads/lab8/shifter.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/tonys/Downloads/lab8/shifter.v|
 !i113 1
@@ -455,14 +455,14 @@ R11
 vstate_machine
 R0
 !i10b 1
-!s100 AMKe2IU:E88Fj155=gg[L2
-IANCIShQdY8UI4<1akaTSS2
+!s100 a_ZnQ38L<[mL:[ADDVi>U2
+I?UOmWn24KH0VW`f1DH9m60
 R1
 R2
 R3
 R4
 R5
-L0 55
+L0 60
 R6
 r1
 !s85 0
